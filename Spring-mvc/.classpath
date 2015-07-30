@@ -25,5 +25,17 @@
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring-webmvc-4.1.1.RELEASE.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring-webmvc-portlet-4.1.1.RELEASE.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring-websocket-4.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/mysql-connector-java-5.1.6-bin.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="F:/韩顺平.2011版.hibernate3.3视频教程.资料.ppt.笔记.源码汇总/源码/hibernate 1day/hibernate_pro1/hiberateTest1/lib/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="F:/韩顺平.2011版.hibernate3.3视频教程.资料.ppt.笔记.源码汇总/源码/hibernate 1day/hibernate_pro1/hiberateTest1/lib/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="F:/韩顺平.2011版.hibernate3.3视频教程.资料.ppt.笔记.源码汇总/源码/hibernate 1day/hibernate_pro1/hiberateTest1/lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="F:/韩顺平.2011版.hibernate3.3视频教程.资料.ppt.笔记.源码汇总/源码/hibernate 1day/hibernate_pro1/hiberateTest1/lib/hibernate3.jar"/>
+	<classpathentry kind="lib" path="F:/韩顺平.2011版.hibernate3.3视频教程.资料.ppt.笔记.源码汇总/源码/hibernate 1day/hibernate_pro1/hiberateTest1/lib/javassist-3.4.GA.jar"/>
+	<classpathentry kind="lib" path="F:/韩顺平.2011版.hibernate3.3视频教程.资料.ppt.笔记.源码汇总/源码/hibernate 1day/hibernate_pro1/hiberateTest1/lib/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="F:/韩顺平.2011版.hibernate3.3视频教程.资料.ppt.笔记.源码汇总/源码/hibernate 1day/hibernate_pro1/hiberateTest1/lib/ojdbc6.jar"/>
+	<classpathentry kind="lib" path="F:/韩顺平.2011版.hibernate3.3视频教程.资料.ppt.笔记.源码汇总/源码/hibernate 1day/hibernate_pro1/hiberateTest1/lib/slf4j-api-1.5.10.jar"/>
+	<classpathentry kind="lib" path="F:/韩顺平.2011版.hibernate3.3视频教程.资料.ppt.笔记.源码汇总/源码/hibernate 1day/hibernate_pro1/hiberateTest1/lib/slf4j-simple-1.5.10.jar"/>
 	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
 </classpath>

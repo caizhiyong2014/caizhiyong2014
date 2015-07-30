@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.xin.domain">
+	<class name="Order" table="order">
+		<id name="OrderID" type="java.lang.Integer">
+			<generator class="assigned"></generator>
+		</id>
+		<property name="UserID" type="java.lang.Integer">
+			<column name="UserID" not-null="true"></column>
+		</property>
+		<property name="Address" type="java.lang.String">
+			<column name="Address" not-null="true"></column>
+		</property>
+		<property name="teleNumber" type="java.lang.Integer">
+			<column name="teleNumber" not-null="true"></column>
+		</property>
+		<property name="State" type="java.util.Date">
+			<column name="State" not-null="true"></column>
+		</property>
+		<property name="Date" type="java.lang.Integer">
+			<column name="Date" not-null="true"></column>
+		</property>
+	</class>
+
+</hibernate-mapping>

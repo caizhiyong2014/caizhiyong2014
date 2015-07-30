@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.xin.domain">
+	<class name="Item" table="item">
+		<id name="ItemID" type="java.lang.Integer">
+		<generator class="assigned" ></generator></id>
+		<property name="ItemName" type="java.lang.String">
+			<column name="ItemName" not-null="true"></column>
+		</property>
+		<property name="ItemCatetory" type="java.lang.String">
+			<column name="ItemCatetory" not-null="true"></column>
+		</property>
+		<property name="ItemStock" type="java.lang.String">
+			<column name="ItemStock" not-null="true"></column>
+		</property>
+		<property name="Price" type="java.lang.Float">
+			<column name="Price" not-null="true"></column>
+		</property>
+		<property name="picture" type="java.lang.String">
+			<column name="Picture" not-null="true"></column>
+		</property>
+		<property name="ItemDetail" type="java.lang.String">
+			<column name="ItemDetail" not-null="true"></column>
+		</property>
+		<property name="ItemState" type="java.lang.String">
+			<column name="ItemState" not-null="true"></column>
+		</property>
+		</class>
+</hibernate-mapping>

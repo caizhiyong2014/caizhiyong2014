@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.xin.domain">
+	<class name="User" table="user">
+		<id name="UserID" type="java.lang.Integer">
+			<generator class="assigned"></generator>
+		</id>
+        <property name="UserName" type="java.lang.String">
+            <column name="UserName" unique="true" />
+        </property>
+        <property name="UserNumber" type="java.lang.Integer">
+            <column name="UserNumber" length="128" not-null="true" />
+        </property>
+	</class>
+
+</hibernate-mapping>

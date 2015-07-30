@@ -1,5 +1,5 @@
-#Mon Dec 29 09:42:55 CST 2014
+#Wed Jul 29 16:22:14 CST 2015
 eclipse.preferences.version=1
-encoding//src/com/xin/test/User.java=GBK
-encoding//src/com/xin/test/WelcomeController.java=GBK
+encoding//src/com/xin/controller/WelcomeController.java=UTF-8
+encoding//src/com/xin/domain/User.java=GBK
 encoding/<project>=UTF-8
